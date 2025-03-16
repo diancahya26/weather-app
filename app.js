@@ -6,16 +6,16 @@ document.getElementById('getWeather').addEventListener('click', function() {
     fetch(url)
         .then(response => {
             if (!response.ok) {
-                throw new Error('Data tidak ditemukan');
+                throw new Error('Данные не найдены');
             }
             return response.json();
         })
         .then(data => {
             const weatherResult = document.getElementById('weatherResult');
             weatherResult.innerHTML = `
-                <h2>Cuaca di ${data.name}</h2>
-                <p>Temperatur: ${data.main.temp} °C</p>
-                <p>Deskripsi: ${data.weather[0].description}</p>
+                <h2>Погода в ${data.name}</h2>
+                <p>Температура: ${data.main.temp} °C</p>
+                <p>Описание: ${data.weather[0].description}</p>
             `;
         })
         .catch(error => {
