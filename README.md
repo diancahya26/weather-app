@@ -2,7 +2,7 @@
 
 
 ## Краткое описание проекта
-Website sederhana yang menampilkan informasi cuaca terkini berdasarkan lokasi yang dimasukkan oleh pengguna. Data cuaca diambil dari API cuaca.
+Простой веб-сайт, отображающий текущую информацию о погоде на основе местоположения, введенного пользователем. Данные о погоде берутся из API погоды.
 
 ## Участник
 ФИО: Diana Cahya (GitHub: diancahya26)
