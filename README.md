@@ -8,4 +8,4 @@
 ФИО: Diana Cahya (GitHub: diancahya26)
 
 ## Техническое задание
-[Ссылка на техническое задание](Technical_Specification.md)
+[Ссылка на техническое задание](teknikinfo.md)
