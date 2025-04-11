@@ -3,4 +3,4 @@
 Этот Pull Request содержит чек-лист тестирования веб-приложения погоды.  
 Документ был составлен согласно заданию №2.
 
-- Файл чек-листа: [test-checklist.md](test-checklist.md)
+- Файл чек-листа: [test-cheklist.md](test-cheklist.md)
